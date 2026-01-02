@@ -400,6 +400,7 @@ img.logo {
     height: 100vh;
     width: 200px;
     padding: 10px;
+    position:fixed;
 }
 
 .div-three-main {
@@ -515,3 +516,4 @@ li.topics {
 .cursor-pointer {
     cursor: pointer;
 }
+
