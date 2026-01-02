@@ -94,9 +94,6 @@ li.social-link a {
 .basic-info {
     cursor: pointer;
 }
-.learnings{
-    color: #000000;
-}
 
 .basic-inforamtion-texts-container {
     font-size: 30px;
@@ -403,7 +400,6 @@ img.logo {
     height: 100vh;
     width: 200px;
     padding: 10px;
-    position:fixed;
 }
 
 .div-three-main {
@@ -520,4 +516,7 @@ li.topics {
     cursor: pointer;
 }
 
-
+a.learnings {
+    color: #000000;
+    text-decoration: none;
+}
