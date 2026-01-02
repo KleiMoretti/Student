@@ -94,6 +94,9 @@ li.social-link a {
 .basic-info {
     cursor: pointer;
 }
+.learnings{
+    color: #000000;
+}
 
 .basic-inforamtion-texts-container {
     font-size: 30px;
@@ -516,4 +519,5 @@ li.topics {
 .cursor-pointer {
     cursor: pointer;
 }
+
 
