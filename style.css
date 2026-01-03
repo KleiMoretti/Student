@@ -399,7 +399,7 @@ img.logo {
     background-color: white;
     height: 100vh;
     width: 200px;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 .div-three-main {
@@ -420,8 +420,8 @@ li.topics {
 }
 
 .new-topics-text {
-
     margin-top: 10px;
+    font-size: 15px;
 }
 
 li.social-links {
@@ -445,12 +445,14 @@ li {
 
 .learnings-content-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .learnings-rightBar {
     padding: 10px;
+}
+
+.learnings-content-newest-center {
+    width: 44%;
 }
 
 .learnings-content-headings {
@@ -475,10 +477,15 @@ li {
 }
 
 .learnings-content-search-bg {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.learnings-search-center {
     background-color: white;
     border-radius: 50px;
     padding: 10px 20px;
-    margin-top: 20px;
 }
 
 input.learnings-content-search {
@@ -489,8 +496,9 @@ input.learnings-content-search {
 }
 
 .learnings-content-newest-topic {
-    margin-left: 20px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 img.qr-code {
@@ -504,12 +512,17 @@ img.qr-code {
 
 li.topics {
     font-size: 12px;
-    margin-top: 7px;
-    padding: 5px 10px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.text-bold-m {
+    margin-left: 15px;
 }
 
 .topics:hover {
     background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 .cursor-pointer {
@@ -519,4 +532,22 @@ li.topics {
 a.learnings {
     color: #000000;
     text-decoration: none;
+}
+
+.topics-boxes-container {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.topics-boxes-container-center {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
 }
