@@ -7,10 +7,7 @@
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+
 
 
 body {
@@ -551,7 +548,28 @@ a.learnings {
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 300px;
     flex-wrap: wrap;
 }
 
+.topics-boxes-container:hover {
+    background-color: #000000d3;
+}
+
+.abosulte-box {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffffa1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.boxex-container-pop-up {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
