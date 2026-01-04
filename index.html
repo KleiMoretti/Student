@@ -4,273 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gualdahara Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
-<body>
-    <section>
-        <header>
-            <div class="fixed-position">
-                <div class="navigation-bg">
-                    <li>
-                        <div class="basic-info">
-                            <p>Basic Information</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="basic-info">
-                            <p>Academic Info</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="basic-info">
-                            <p>Interests / Hobbies</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="basic-info">
-                            <p>Fun / Personal Info</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="basic-info">
-                            <p><a href="learnings.html">Share Learnings</a></p>
-                        </div>
-                    </li>
-
+<body style="background-color: #f1f1f1;">
+    <div class="learnings-main-container">
+        <div class="div-three-main">
+            <div class="learnings-sidebar">
+                <div class="learnings-sidebar-logo">
+                    <img class="logo" src="logo.png" alt="">
                 </div>
-            </div>
-        </header>
-        <div class="basic-information-container">
-            <div class="social-links-container">
-                <li class="social-link"><a href="https://web.facebook.com/xx.xx.xx.xx.xx.xx.1412"><i
-                            class="bi bi-messenger"></i></a></li>
-                <li class="social-link"><a href="https://web.facebook.com/xx.xx.xx.xx.xx.xx.1412"><i
-                            class="bi bi-facebook"></i></a></li>
-                <li class="social-link"><a href="https://www.instagram.com/klei.moretti"><i
-                            class="bi bi-instagram"></i></a></li>
-                <li class="social-link"><a href="https://github.com/KleiMoretti"><i class="bi bi-github"></i></a></li>
-                <li class="social-link"><a href="https://www.tiktok.com/@zycx.koshi"><i class="bi bi-tiktok"></i></a>
-                </li>
-            </div>
-            <div class="basic-inforamtion-texts-container">
-                <p> Hi! I’m <b>Jhon Leonard Gualdahara</b>, but you </p>
-                <p>can call me Dose/Twelve. I am <b>17 years</p>
-                <p>old</b> and I identify as <b>Male</b>. I’m excited to</p>
-                <p>share more about myself through this </p>
-                <p>activity.</p>
-            </div>
-            <div class="basic-information-img-container">
-                <img src="profile.jpg" alt="" class="basic-information-photo">
-            </div>
-        </div>
-    </section>
-    <div class="container-word-Academic-Info">
-        <p>Academic Info</p>
-    </div>
-    <div class="container-academic-info">
-        <div class="academic-info-text-center">
-            <div class="Academic-Info-container">
-                <p>I am currently taking the <b>Bachelor of Science in Computer Science (BSCS)</b>, and I am majoring in
-                    <b>Data
-                        Science</b>.
-                    This program allows me
-                </p>
-                <p>to explore how data is collected, analyzed, and used to create meaningful solutions in technology and
-                    real-world problems.</p>
-                <p>Being part of this specialization inspires me to learn more about programming, analytics, and
-                    problem-solving. Although the subjects</p>
-                <p>can be challenging, I enjoy the process of discovering new concepts and improving my skills each day.
-                </p>
-                <p>I belong to <b>First Year - 1B</b>, and my <b>Student ID is 251-****</b>. I am excited to continue my
-                    academic journey and
-                    gain more knowledge and </p>
-                <p>experience in the field of data science.</p>
-            </div>
-        </div>
-        <div class="academic-info-img-container-filter">
-            <div class="academic-info-text-container">
-                <div class="first-line-academic-info-container">
-                    <div class="DS-text">
-                        <p>Data Science</p>
+                <div class="learnings-sidebar-topic">
+                    <div class="learnings-sidebar-topic-request-topic">
+                        <div class="learnings-sidebar-topic-request-topic-text text-bold-m text-bold">
+                            <p>Request Topic</p>
+                        </div>
+                        <div class="learnings-sidebar-topic-request-topic-btn">
+                            <i class="bi bi-plus-circle-fill cursor-pointer"></i>
+                        </div>
                     </div>
-                    <div class="StudentID">
-                        <p>Student ID is 251-****.</p>
-                    </div>
-                </div>
-                <div class="second-line-academic-info-container">
-                    <div class="Course">
-                        <p>Bachelor of Science in Computer Science (BSCS)</p>
-                    </div>
-                    <div class="Block">
-                        <p>First Year - 1B</p>
+                    <div class="learnings-sidebar-topic-headings">
+                        <div class="learnings-sidebar-topic-headings-text text-bold-m text-bold">
+                            <p>Topics</p>
+                        </div>
+                        <div class="learnings-sidebar-topic-headings-topics">
+                            <ul id="topicsList">
+                                <!--POP UP LI-->
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="academic-info-img-photo-container">
-            <div class="academic-info-phot-center">
-                <div class="academic-photo-first-layer">
-                    <img class="photo1 br" src="ss (2).png" alt="">
-                    <img class="photo2 br" src="ss (7).png" alt="">
-                    <img class="photo3 br" src="ss (6).png" alt="">
-                </div>
-                <div class="academic-photo-first-layer">
-                    <img class="photo1 br" src="ss (3).png" alt="">
-                    <img class="photo2 br" src="ss (5).png" alt="">
-                    <img class="photo3 br" src="ss (4).png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <section>
-        <div class="interes-hobbies-main-center">
-            <div>
-                <div class="container-Interests-Hobbies">
-                    <p>Interests / Hobbies</p>
-                </div>
-                <div class="words-text-container">
-                    <p>One of my biggest interests is coding, because it allows me to turn ideas into real, functioning
-                        programs.</p>
-                    <p> I enjoy exploring different programming languages and discovering new ways to solve problems
-                        creatively.
-                    </p>
-                    <p>Coding also keeps my mind active, pushing me to analyze situations and think more logically.
-                    </p>
-                    <p> Whenever I successfully fix an error or finish a project, it gives me a strong sense of
-                        accomplishment.</p>
-                    <p>Overall, coding is not just a hobby for me—it’s something that motivates me to keep learning and
-                        improving every day.</p>
-                </div>
-                <div class="box-container-main">
-                    <div class="box">
-                        <div class="header-box1">
-                            <i class="bi bi-code-slash"></i>
-                            <div class="title">
-                                <p>Hobbies / Favorite Activities</p>
-                            </div>
-                            <div class="text-p">
-                                <p>enjoy coding because it allows me</p>
-                                <p>to create programs and solve</p>
-                                <p>problems in my own unique way.</p>
-                                <p>It challenges my mind to think</p>
-                                <p>logically and creatively every time</p>
-                                <p>I write or fix code.</p>
-                                <p>Coding also gives me a sense of </p>
-                                <p>accomplishment whenever</p>
-                                <p>something I build finally works.</p>
+            <div class="learnings-content-container">
+                <div class="content-center-center">
+                    <div class="learnings-content-center">
+                        <div class="learnings-content-headings">
+                            <p>Klei Moretti</p>
+                        </div>
+                        <div class="learnings-content-greet">
+                            <p>Hey, how's your day?</p>
+                        </div>
+                        <div class="learnings-content-search-bg">
+                            <div class="learnings-search-center">
+                                <input class="learnings-content-search" type="text" placeholder="Search...">
                             </div>
                         </div>
-                    </div>
-                    <div class="box">
-                        <div class="header-box1">
-                            <i class="bi bi-suit-heart-fill"></i>
-                            <div class="title">
-                                <p>Favorite Subject</p>
-                            </div>
-                            <div class="text-p">
-                                <p>My favorite subject is Programming </p>
-                                <p>because it teaches me how to create</p>
-                                <p>solutions through logic and</p>
-                                <p>creativity.</p>
-                                <p>I enjoy learning new concepts and</p>
-                                <p>applying them to real-world
-                                </p>
-                                <p>problems through hands-on coding.
-                                </p>
-                                <p>Programming also helps me
-                                </p>
-                                <p>improve my critical thinking and</p>
-                                <p>pushes me to continuously grow my </p>
-                                <p>skills.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="header-box1">
-                            <i class="bi bi-geo-alt-fill"></i>
-                            <div class="title">
-                                <p>Favorite "Hangout" place</p>
-                            </div>
-                            <div class="text-p">
-                                <p>like spending my free time</p>
-                                <p>somewhere peaceful where I can see</p>
-                                <p>the mountains and appreciate the</p>
-                                <p>natural view.</p>
-                                <p>The cool, refreshing air helps me</p>
-                                <p>relax and think clearly.</p>
-                                <p>It’s a place where I feel calm,</p>
-                                <p>inspired, and comfortable just being</p>
-                                <p>in the moment.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="center-main-fun">
-            <div>
-                <div class="container-title-Fun-Personal-Info-text">
-                    <p>Fun / Personal Info</p>
-                </div>
-                <div class="text-words-fun-PI">
-                    <p>I love eating adobo, especially when it’s warm and reminds me of home and family gatherings.</p>
-                    <p>The color purple always catches my eye because it feels calm, creative, and a little mysterious.
-
-                    </p>
-                    <p>One quote I always remember is “Never think you are better than anyone,” which keeps me humble
-                        and grounded.</p>
-                    <p>I enjoy coding and solving problems because it feels like a puzzle that challenges my mind and
-                        creativity.</p>
-                    <p>All of these little things together show what I enjoy, what inspires me, and who I am as a
-                        person.</p>
-                </div>
-
-                <div class="favorite-foods-img-container">
-                    <div class="f-flex-main">
-                        <div class="f-flex">
-                            <div class="f-flex1">
-                                <img class="f-flex-photo" src="Adobo.jpg" alt="">
-
-                            </div>
-                            <div class="f-flex2">
-                                <img class="f-flex-photo" src="iceCream.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="f-flex-3">
-                            <div class="graham-area">
-                                <img class="f-flex-photo graham" src="Graham.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="photo-2nd-main">
-                            <div class="photo-food-flex2">
-                                <div class="f-flex-3"><img class="f-flex-photo mcFlurry" src="mcFlurry.jpg" alt="">
+                        <div class="learnings-content-newest-topic">
+                            <div class="learnings-content-newest-center">
+                                <div class="learnings-content-newest-text">
+                                    <p class="text-bold">Newest Topics</p>
                                 </div>
-                                <div class="f-flex-4"><img class="f-flex-photo lasagna" src="laagna.jpg" alt=""></div>
-                            </div>
-                            <div class="f-flex-5">
-                                <img class="pizza" src="pizza.jpg" alt="">
+                                <div class="learnings-content-newest-text-list">
+                                    <ol class="new-topics" id="newtopics">
+                                        <!--Show topics-->
+                                    </ol>
+                                </div>
+
                             </div>
                         </div>
                     </div>
+                    <div class="topics-boxes-container-center" id="topics-boxes-container-center">
+                        <!--BOXES TOPICS SHOW-->
+                    </div>
+                </div>
+
+            </div>
+            <div class="learnings-rightBar">
+                <div class="learnings-rightBar-headings">
+                    <div class="learning-right-bar-qr">
+                        <img class="qr-code" src="qr.png" alt="">
+                    </div>
+                    <div class="learnings-rightBar-headings-text">
+                        <p>Gcash Donate</p>
+                    </div>
+                </div>
+                <div class="social-links-left">
+                    <li class="social-links"><a href="https://web.facebook.com/xx.xx.xx.xx.xx.xx.1412"><i
+                                class="bi bi-messenger"></i></a></li>
+                    <li class="social-links"><a href="https://web.facebook.com/xx.xx.xx.xx.xx.xx.1412"><i
+                                class="bi bi-facebook"></i></a></li>
+                    <li class="social-links"><a href="https://www.instagram.com/klei.moretti"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="social-links"><a href="https://github.com/KleiMoretti"><i class="bi bi-github"></i></a>
+                    </li>
+                    <li class="social-links"><a href="https://www.tiktok.com/@zycx.koshi"><i
+                                class="bi bi-tiktok"></i></a>
+                    </li>
+                </div>
+            </div>
+            <div class="abosulte-box" id="abosulte-box">
+                <div class="boxex-container-pop-up">
+                    <p>a</p>
                 </div>
             </div>
         </div>
-    </section>
+
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
-
