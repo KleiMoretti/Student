@@ -7,7 +7,12 @@
     font-weight: bold;
 }
 
-a { text-decoration: none; color: black; }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 body {
@@ -535,7 +540,6 @@ a.learnings {
 }
 
 .topics-boxes-container {
-
     color: white;
     display: flex;
     justify-content: space-between;
@@ -560,17 +564,45 @@ a.learnings {
     position: absolute;
     width: 100%;
     background-color: #ffffffa1;
-    height: 100%;
+    height: 110%;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
 }
 
-.boxex-container-pop-up {
+
+.boxes-container-pop-up {
     background-color: white;
     width: 50%;
     height: 50%;
     border-radius: 20px;
+    padding: 20px;
 }
 
+.boxes-container-pop-up-heading {
+    display: flex;
+    width: 100%;
+}
+
+.boxes-container-pop-up-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes-container-pop-up-exit-absolute {
+    position: absolute;
+    justify-content: end;
+    display: flex;
+    width: 50%;
+}
+
+.boxes-container-pop-up-what-is {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.boxes-container-pop-up-content {
+    margin-top: 60px;
+}
