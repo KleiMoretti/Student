@@ -94,7 +94,7 @@ topics.forEach((boxesText, index) => {
 
     boxDiv.onclick = function () {
         showBox.style.display = "flex";
-        title.textContent = topics[index]; // ✅ FIXED LINE
+        title.textContent = topics[index];
         body.style.overflow = "hidden";
         whatIsTitle.textContent = topics[index];
     };
@@ -117,3 +117,4 @@ exitBtn.onclick = function () {
     showBox.style.display = "none";
     body.style.overflow = "";
 };
+
